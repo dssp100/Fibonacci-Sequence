@@ -12,6 +12,7 @@
 		8EC5547F1E105AC9007F5470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5547D1E105AC9007F5470 /* Main.storyboard */; };
 		8EC554811E105AC9007F5470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC554801E105AC9007F5470 /* Assets.xcassets */; };
 		8EC554841E105AC9007F5470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC554821E105AC9007F5470 /* LaunchScreen.storyboard */; };
+		8EC5548C1E105C12007F5470 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5548B1E105C12007F5470 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8EC554801E105AC9007F5470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC554831E105AC9007F5470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EC554851E105AC9007F5470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC5548B1E105C12007F5470 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8EC554791E105AC9007F5470 /* AppDelegate.swift */,
 				8EC5547B1E105AC9007F5470 /* ViewController.swift */,
 				8EC5547D1E105AC9007F5470 /* Main.storyboard */,
+				8EC5548B1E105C12007F5470 /* FibonacciSequence.swift */,
 				8EC554801E105AC9007F5470 /* Assets.xcassets */,
 				8EC554821E105AC9007F5470 /* LaunchScreen.storyboard */,
 				8EC554851E105AC9007F5470 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC5548C1E105C12007F5470 /* FibonacciSequence.swift in Sources */,
 				8EC5547C1E105AC9007F5470 /* ViewController.swift in Sources */,
 				8EC5547A1E105AC9007F5470 /* AppDelegate.swift in Sources */,
 			);
